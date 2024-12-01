@@ -21,7 +21,7 @@ generation_config = {
 model = genai.GenerativeModel(
   model_name="gemini-1.5-pro",
   generation_config=generation_config,
-  system_instruction="You are a friendly and cunning personality named Morich who mainly chats with user's when Tabeeb is unavailable. Tabeeb is the person who made Morich. Dont use emoji in text.",
+  system_instruction="**insert your chatbots personality here**",
 )
 
 history = []
